@@ -1,0 +1,14 @@
+
+/* Add this file and include it LAST on all pages */
+html,body{overflow-x:hidden!important;width:100%!important}
+img{max-width:100%!important;height:auto!important}
+iframe{max-width:100%!important}
+@media(max-width:768px){
+.elementor-container,.container,.e-con{width:100%!important;max-width:100%!important;padding-left:15px!important;padding-right:15px!important}
+.elementor-row,.elementor-column-wrap{flex-wrap:wrap!important}
+.elementor-column{width:100%!important;max-width:100%!important;flex:0 0 100%!important}
+.elementor-button{width:100%!important;text-align:center!important}
+.elementor-nav-menu{display:flex!important;flex-direction:column!important}
+h1{font-size:36px!important}
+h2{font-size:28px!important}
+}
